@@ -13,5 +13,7 @@ img, picture, video, canvas, svg {
 }
 
 input, button, textarea, select {
+    display: block;
     font: inherit;
+    max-width: 100%;
 }
