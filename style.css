@@ -167,3 +167,7 @@ input:invalid:not(:placeholder-shown):focus {
     border: 2px solid var(--input-focus-color);
     outline: 0;
 }
+
+input:valid:not(:placeholder-shown) {
+    border: 2px solid var(--btn-bg);
+}
