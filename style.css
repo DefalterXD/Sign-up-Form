@@ -98,3 +98,7 @@ input, button, textarea, select {
 .form__wrapper > h1 {
     font-size: 1.6rem;
 }
+
+.disclaimer {
+    max-width: 65%;
+}
