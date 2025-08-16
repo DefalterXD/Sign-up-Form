@@ -93,3 +93,8 @@ input, button, textarea, select {
     margin-bottom: 2em;
     padding: 0 0 0 50px;
 }
+
+.form__section > h1,
+.form__wrapper > h1 {
+    font-size: 1.6rem;
+}
