@@ -190,4 +190,14 @@ input:invalid:not(:placeholder-shown) {
     .img__section img {
         max-width: 100%;
     }
+
+    .dark__background {
+        background-position-x: 10%;
+        height: 150px;
+    }
+
+    .dark__background::after {
+        font-size: 6rem;
+        transform: translateX(0);
+    }
 }
