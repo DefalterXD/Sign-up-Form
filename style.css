@@ -7,6 +7,13 @@
     font-size: inherit;
 }
 
+:root {
+    --bg-body: #f9fafb;
+    --border-input-color: #E5E7EB;
+    --btn-bg: #596d48;
+    --input-focus-color: #708ee5;
+}
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
