@@ -61,3 +61,12 @@ input, button, textarea, select {
     background-size: 20%;
     background-position: 30%;
 }
+
+.dark__background::after {
+    content: "ODIN";
+    color: #fff;
+    font-family: 'Norse Bold';
+    font-size: 8rem;
+    position: absolute;
+    right: 25%;
+}
