@@ -49,3 +49,15 @@ input, button, textarea, select {
 .img__section img {
     max-height: 100%;
 }
+
+.dark__background {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 20%;
+    background-image: url("./img/odin-lined.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 30%;
+}
