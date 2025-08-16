@@ -133,3 +133,14 @@ input, button, textarea, select {
     border-radius: 6px;
     border: 2px solid var(--border-input-color);
 }
+
+.button__wrapper button {
+    background-color: var(--btn-bg);
+    padding: 0.5em 2.5em;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1.5em;
+}
