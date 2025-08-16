@@ -160,3 +160,10 @@ input, button, textarea, select {
 input:placeholder-shown {
     color: transparent;
 }
+
+input:focus,
+input:valid:not(:placeholder-shown):focus,
+input:invalid:not(:placeholder-shown):focus {
+    border: 2px solid var(--input-focus-color);
+    outline: 0;
+}
