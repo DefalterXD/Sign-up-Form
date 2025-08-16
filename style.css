@@ -70,3 +70,10 @@ input, button, textarea, select {
     position: absolute;
     right: 25%;
 }
+
+.author__credit {
+    position: absolute;
+    bottom: 2%;
+    color: white;
+    left: 25%;
+}
