@@ -35,3 +35,15 @@ input, button, textarea, select {
     font: inherit;
     max-width: 100%;
 }
+
+.main__section {
+    display: flex; 
+}
+
+.img__section {
+    position: relative;
+}
+
+.img__section img {
+    max-width: 100%;
+}
