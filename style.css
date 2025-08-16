@@ -200,4 +200,10 @@ input:invalid:not(:placeholder-shown) {
         font-size: 6rem;
         transform: translateX(0);
     }
+
+    .disclaimer {
+        padding: 0;
+        text-align: center;
+        max-width: 100%;
+    }
 }
