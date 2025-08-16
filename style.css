@@ -37,13 +37,15 @@ input, button, textarea, select {
 }
 
 .main__section {
-    display: flex; 
+    display: flex;
+    height: 100dvh;
 }
 
 .img__section {
     position: relative;
+    height: inherit;
 }
 
 .img__section img {
-    max-width: 100%;
+    max-height: 100%;
 }
