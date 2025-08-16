@@ -77,3 +77,9 @@ input, button, textarea, select {
     color: white;
     left: 25%;
 }
+
+.author__credit a:hover,
+.author__credit a:link,
+.author__credit a:visited {
+    color: #fff;
+}
