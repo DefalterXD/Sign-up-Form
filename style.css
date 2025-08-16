@@ -206,4 +206,8 @@ input:invalid:not(:placeholder-shown) {
         text-align: center;
         max-width: 100%;
     }
+
+    #form {
+        max-width: 100%;
+    }
 }
