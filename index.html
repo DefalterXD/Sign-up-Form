@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-form</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main class="main__section">
         <section class="img__section">
             <img src="./img/background.jpg" alt="background">
             <div class="dark__background"></div>
-            <div class="author__credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></div>
+            <div class="author__credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a
+                    href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a>
+            </div>
         </section>
         <section class="form__section">
-        <h1 class="disclaimer">
-            This is not a real online service! 
-            You know you need something like this in your life to help you realize your deepest dreams.
-            Sign up <em>now</em> to get starter.
-
-            You <em>know</em> you want to.
-        </h1>
-        <form action="#" id="form">
-            <h1 class="form__caption">
-                Let's do this!
+            <h1 class="disclaimer">
+                This is not a real online service!
+                You know you need something like this in your life to help you realize your deepest dreams.
+                <p class="disclaimer__sign">Sign up <em>now</em> to get starter.</p>
+                <p class="disclaimer__sign-space">!</p>
+                <p class="disclaimer__sign">You <em>know</em> you want to.</p>
             </h1>
-            <div class="input__wrapper">
-                <label for="first__name">First name</label>
-                <input type="text" name="first__name" id="first__name" placeholder="Johnny" autocomplete="off">
+            <form action="#" id="form">
+                <h1 class="form__caption">
+                    Let's do this!
+                </h1>
+                <div class="input__wrapper">
+                    <label for="first__name">First name</label>
+                    <input type="text" name="first__name" id="first__name" placeholder="Johnny" autocomplete="off">
+                </div>
+                <div class="input__wrapper">
+                    <label for="last__name">Last name</label>
+                    <input type="text" name="last__name" id="last__name" placeholder="Burg" autocomplete="off">
+                </div>
+                <div class="input__wrapper">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Johnny@example.com" autocomplete="off">
+                </div>
+                <div class="input__wrapper">
+                    <label for="phone__number">Phone number</label>
+                    <input type="tel" name="phone__number" id="phone__number" placeholder="+1-234-23-34"
+                        autocomplete="off">
+                </div>
+                <div class="input__wrapper">
+                    <label for="pwd">Password</label>
+                    <input type="password" name="pwd" id="pwd" placeholder="********" autocomplete="off">
+                </div>
+                <div class="input__wrapper">
+                    <label for="pwd__confirm">Confirm password</label>
+                    <input type="password" name="pwd__confirm" id="pwd__confirm" autocomplete="off">
+                </div>
+            </form>
+            <div class="button__wrapper">
+                <button type="submit" form="form">Create Account</button>
+                <p class="account__desc">Already have an account? <a href="#" class="account__link">Log in</a></p>
             </div>
-            <div class="input__wrapper">
-                <label for="last__name">Last name</label>
-                <input type="text" name="last__name" id="last__name" placeholder="Burg" autocomplete="off">
-            </div>
-            <div class="input__wrapper">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Johnny@example.com" autocomplete="off">
-            </div>
-            <div class="input__wrapper">
-                <label for="phone__number">Phone number</label>
-                <input type="tel" name="phone__number" id="phone__number" placeholder="+1-234-23-34" autocomplete="off">
-            </div>
-            <div class="input__wrapper">
-                <label for="pwd">Password</label>
-                <input type="password" name="pwd" id="pwd" placeholder="********" autocomplete="off">
-            </div>
-            <div class="input__wrapper">
-                <label for="pwd__confirm">Confirm password</label>
-                <input type="password" name="pwd__confirm" id="pwd__confirm" autocomplete="off">
-            </div>
-        </form>
-        <div class="button__wrapper">
-            <button type="submit" form="form">Create Account</button>
-            <p class="account__desc">Already have an account? <a href="#" class="account__link">Log in</a></p>
-        </div>
         </section>
     </main>
 </body>
+
 </html>
