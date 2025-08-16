@@ -210,4 +210,8 @@ input:invalid:not(:placeholder-shown) {
     #form {
         max-width: 100%;
     }
+
+    .form__caption {
+        text-align: center;
+    }
 }
