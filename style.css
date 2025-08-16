@@ -108,3 +108,14 @@ input, button, textarea, select {
     padding: 3em 50px;
     box-shadow: 1px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
+
+#form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    gap: 10%;
+}
+
+.input__wrapper {
+    width: min(350px, 100%);
+}
