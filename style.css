@@ -214,4 +214,11 @@ input:invalid:not(:placeholder-shown) {
     .form__caption {
         text-align: center;
     }
+
+    .button__wrapper,
+    .button__wrapper > *{
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
