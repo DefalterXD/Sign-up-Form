@@ -2,6 +2,8 @@
 
 A simple HTML, CSS form page for user registration.
 
+**Demo:** https://defalterxd.github.io/Sign-up-Form/
+
 <img src="./img/signup-form-pc.png" alt="project__picture-on-desktop">
 
 ## How It's Made:
